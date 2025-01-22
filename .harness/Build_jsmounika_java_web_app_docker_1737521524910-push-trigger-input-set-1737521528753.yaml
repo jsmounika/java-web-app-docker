@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_jsmounika_java_web_app_docker_1737521524910-push-trigger-input-set
+  identifier: Build_jsmounika_java_web_app_docker_1737521524910pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_jsmounika_java_web_app_docker_1737521524910
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
